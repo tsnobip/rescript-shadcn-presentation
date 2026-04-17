@@ -7,14 +7,14 @@ theme: default
 # some information about your slides (markdown enabled)
 title: ReScript-Shadcn
 info: |
-  Presentation of ReScript-Shadcn.
+    Presentation of ReScript-Shadcn.
 
-  Learn more at [rescript-shadcn.miriad.studio](https://rescript-shadcn.miriad.studio/)
+    Learn more at [rescript-shadcn.miriad.studio](https://rescript-shadcn.miriad.studio/)
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
 drawings:
-  persist: false
+    persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
 # enable Comark Syntax: https://comark.dev/syntax/markdown
@@ -23,7 +23,7 @@ comark: true
 duration: 25min
 ---
 
-# ReScript-Shadcn
+# <img src="./icon.svg" class="inline-block w-16 mb-4" /> ReScript-Shadcn 
 
 by Paul Tsnobiladzé
 
