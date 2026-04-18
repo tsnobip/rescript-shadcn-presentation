@@ -90,20 +90,22 @@ class: text-2xl
     - added some DOM/pixel comparison to help AI
 
 --- 
-class: text-2xl
+class: text-xl
 ---
 
 ## The issue with props drilling
 
 1. cumbersome for large props (inheriting from DOM props)
-    - could be replaced with limited props thanks to customability
+    - could start with a limited set of props thanks to customizability
 2. Different semantics between optional field in ReScript and JS
     - incompatible with object spreading:
 ```js
-// inside MyJsComponent
-const props = {
-  "data-slot": "some-default-slot",
-  ...parentProps
+function MyJsComponent({ className, ...otherProps }){
+    const props = {
+    "data-slot": "some-default-slot",
+    ...parentProps
+    }
+    return (<SomeOtherComponent ...props />)
 }
 ```
 the following ReScript code:
@@ -133,9 +135,6 @@ let make = ({ ?className, ...MyJsComponent.props as props}) => {
 }
 
 ```
-
-
-
 
 --- 
 class: text-2xl
