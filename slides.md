@@ -9,6 +9,8 @@ title: ReScript-Shadcn
 info: |
     Presentation of ReScript-Shadcn.
 
+    ReScript Retreat 2026, Vienna.
+
     Learn more at [rescript-shadcn.miriad.studio](https://rescript-shadcn.miriad.studio/)
 # apply UnoCSS classes to the current slide
 class: text-center
@@ -26,6 +28,8 @@ duration: 25min
 # <img src="./icon.svg" class="inline-block w-16 mb-4" /> ReScript-Shadcn 
 
 by Paul Tsnobiladzé
+
+ReScript Retreat 2026, Vienna
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -66,7 +70,7 @@ class: text-2xl
 
 # Bindings / rewrite in ReScript
 
-characteristics: 
+Main characteristics: 
 - mostly done by AI with rescript-bindings skill
 - bindings to base-ui components:
     - some custom props + common DOM props
