@@ -41,7 +41,7 @@ ReScript-Shadcn is a rewrite of shadcn design system in ReScript.
 
 - same philosophy as shadcn
 - pixel-perfect rewrite
-- compatible with shadcn CLI
+- compatible with shadcn ecosystem (CLI, MCP, etc)
 - not a library 
 - a collection of components you can import individually
 - meant to be customized to your needs
