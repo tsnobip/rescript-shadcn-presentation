@@ -107,7 +107,7 @@ class: text-xl
 function MyJsComponent({ className, ...otherProps }){
     const props = {
     "data-slot": "some-default-slot",
-    ...parentProps
+    ...otherProps
     }
     return (<SomeOtherComponent ...props />)
 }
