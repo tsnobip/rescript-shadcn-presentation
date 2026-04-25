@@ -2,7 +2,7 @@
   "name": "rescript-shadcn-presentation",
   "sources": [
     {
-      "dir": "demo",
+      "dir": "src",
       "subdirs": true
     }
   ],
