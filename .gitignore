@@ -5,3 +5,10 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
+
+
+# ReScript
+/lib/
+.bsb.lock
+.merlin
+*.res.mjs
